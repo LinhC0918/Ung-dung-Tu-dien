@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>English-Vietnamese Dictionary</title>
+</head>
+<body>
+    <script>
+        var english = ['hello', 'hi', 'goodbye', 'awesome', 'pretty', 'funny'];
+        var vietnamese = ['xin chào', 'chao xìn', 'tạm biệt', 'quá đỉnh', 'xinh quá', 'vui vẻ'];
+        var word_input = prompt('Enter a word').toString();
+        for (var i = 0; i < english.length; i++){
+            if (word_input === english[i]){
+                alert(vietnamese[i]);
+            }
+        }
+    </script>
+</body>
+</html>
